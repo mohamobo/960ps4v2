@@ -38,7 +38,7 @@ import * as rop from "./module/chain.mjs";
 import * as config from "./config.mjs";
 
 // static imports for firmware configurations
-import * as fw_ps4_900 from "./lapse/ps4/900.mjs";
+import * as fw_ps4_950 from "./lapse/ps4/950.mjs";
 
 const t1 = performance.now();
 

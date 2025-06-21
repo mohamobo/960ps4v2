@@ -32,12 +32,6 @@ function goldhen() {
     callalert();
 }
 
-function vtx() {
-    payloadFile = './payloads/hen/ps4-hen-900-vtx.bin';
-    payloadTitle = 'PS4HEN v2.1.5';
-    callalert();
-}
-
 function historyblocker() {
     payloadFile = './payloads/blockers/historyblocker.bin';
     payloadTitle = 'History Blocker';
@@ -143,12 +137,6 @@ document.addEventListener('DOMContentLoaded', () => {
     function onCheckboxChange(isChecked) {
         if (isChecked) {
             goldhen();
-        }
-    }
-
-    function onCheckboxChange2(isChecked) {
-        if (isChecked) {
-            vtx();
         }
     }
 });
