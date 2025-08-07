@@ -28,7 +28,7 @@ function callalert() {
 
 function goldhen() {
     payloadFile = './payloads/hen/goldhen.bin';
-    payloadTitle = 'GoldHEN v2.4b18.3';
+    payloadTitle = 'GoldHEN v2.4b18.5';
     callalert();
 }
 
